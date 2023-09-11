@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="Icon\appIcon.png" />
+    <None Remove="Window\bcgd2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <Resource Include="Icon\appIcon.png" />
+    <Resource Include="Window\bcgd2.png" />
   </ItemGroup>
 
 </Project>

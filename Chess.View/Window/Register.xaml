@@ -7,17 +7,21 @@
       mc:Ignorable="d"
       Title="Register" Width="254" Height="451">
 
-    <Grid Margin="0,0,10,0" Height="451" VerticalAlignment="Center" OpacityMask="#FF1BEC96" Background="#FF02AA20">
-        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="10,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
-        <Label x:Name="lblUserName" Content="Nom d'utilisateur:" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblPassword" Content="Mot de passe:" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblConfirmPassword" Content="Confirmer mot de passe:" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top"/>
-        <Label Content="Register" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="-0.361,0.35"/>
-        <TextBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Margin="10,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
-        <Label x:Name="lblEmail" Content="Courriel:" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnSubmitRegister" Content="Register" HorizontalAlignment="Left" Margin="10,415,0,0" VerticalAlignment="Top" Width="120" Height="26" Background="#FF4F48EA" Foreground="White"/>
+    <Grid Margin="0,0,-319,0" Height="451" VerticalAlignment="Center" OpacityMask="#FF1BEC96">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Window/bcgd2.png"/>
+        </Grid.Background>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="166,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" RenderTransformOrigin="0.137,0.627"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="166,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" RenderTransformOrigin="0.137,0.627"/>
+        <Label x:Name="lblUserName" Content="Nom d'utilisateur:" HorizontalAlignment="Left" Margin="166,73,0,0" VerticalAlignment="Top" Foreground="#FFFBFAFA"/>
+        <Label x:Name="lblPassword" Content="Mot de passe:" HorizontalAlignment="Left" Margin="166,127,0,0" VerticalAlignment="Top" Foreground="#FFFDFCFC"/>
+        <Label x:Name="lblConfirmPassword" Content="Confirmer mot de passe:" HorizontalAlignment="Left" Margin="166,181,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Register" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="-0.361,0.35" Foreground="#FFFBFAFA"/>
+        <TextBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Margin="166,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" RenderTransformOrigin="0.137,0.627"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="166,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" RenderTransformOrigin="0.137,0.627"/>
+        <Label x:Name="lblEmail" Content="Courriel:" HorizontalAlignment="Left" Margin="166,235,0,0" VerticalAlignment="Top" Foreground="#FFFFFEFE"/>
+        <Button x:Name="btnSubmitRegister" Content="Register" HorizontalAlignment="Left" Margin="166,415,0,0" VerticalAlignment="Top" Width="120" Height="26" Background="#FF2C5CDC" Foreground="White"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="291,415,0,0" VerticalAlignment="Top" Width="120" Height="26" Background="#FFF71A04" Foreground="White"/>
 
     </Grid>
 </Page>
