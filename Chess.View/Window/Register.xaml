@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Register" Width="254" Height="451">
 
-    <Grid Margin="0,0,10,0" Height="451" VerticalAlignment="Center">
+    <Grid Margin="0,0,10,0" Height="451" VerticalAlignment="Center" OpacityMask="#FF1BEC96" Background="#FF02AA20">
         <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="10,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="10,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <Label x:Name="lblUserName" Content="Nom d'utilisateur:" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top"/>
@@ -17,7 +17,7 @@
         <TextBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Margin="10,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <Label x:Name="lblEmail" Content="Courriel:" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnSubmitRegister" Content="Register" HorizontalAlignment="Left" Margin="10,415,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button x:Name="btnSubmitRegister" Content="Register" HorizontalAlignment="Left" Margin="10,415,0,0" VerticalAlignment="Top" Width="120" Height="26" Background="#FF4F48EA" Foreground="White"/>
 
     </Grid>
 </Page>
