@@ -17,6 +17,7 @@
         <TextBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Margin="10,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.137,0.627"/>
         <Label x:Name="lblEmail" Content="Courriel:" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSubmitRegister" Content="Register" HorizontalAlignment="Left" Margin="10,308,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
 
     </Grid>
 </Page>
